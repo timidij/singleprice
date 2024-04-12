@@ -3,6 +3,10 @@
     padding: 0px;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: karla;
+    src: url(./fonts/Karla-VariableFont_wght.ttf);
+}
 :root{
     --Cyan: hsl(179, 62%, 43%);
     --Brightyellow: hsl(71, 73%, 54%);
@@ -14,6 +18,7 @@
     
 }
 body{
+    font-family: karla,sans-serif, 'Courier New', Courier, monospace;
     background-color: var(--LightGray);
     display: flex;
     align-items: center;
@@ -32,21 +37,30 @@ main{
 .middle{
     display: flex;
     color: white;
-    justify-content: space-around;
+    /* justify-content: space-evenly; */
 }
 
 .left{
 background-color: var(--Cyan);
-padding: 10px;
+padding: 60px;
 display: flex;
 flex-direction: column;
-justify-content: space-between;
+line-height: 40px;
+/* align-items: center; */
+justify-content: space-evenly;
+width: 50%;
 /* padding: 10px; */
 }
 .right{
-    padding: 10px;
+    padding: 20px;
     background-color: hsl(179, 62%, 63%);
     /* margin-left: 10px; */
+    width: 50%;
+  
+}
+.right >ul >li{
+    list-style: none;
+    line-height: 25px;
 }
 /* font colors */
 .top > h1{
@@ -55,13 +69,26 @@ justify-content: space-between;
 .top >h3{
     color: var(--Brightyellow);
     margin-top: 10px;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
 }
 .top >p{
     color: var(--GrayishBlue);
 }
-
-
+.amount{
+    font-size: 16px;
+}
+.dollar{
+    font-weight: bold;
+    font-size: 30px;
+}
+button{
+    background-color: var(--Brightyellow);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    /* width: 80%; */
+}
 
 
 
