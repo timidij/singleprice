@@ -37,8 +37,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/timidij/singleprice.git)
-- Live Site URL: [Add live site URL here](https://merry-tulumba-30c4aa.netlify.app/)
+- Solution URL: [Link to the site](https://github.com/timidij/singleprice.git)
+- Live Site URL: [live site URL here](https://merry-tulumba-30c4aa.netlify.app/)
 
 ## My process
 
